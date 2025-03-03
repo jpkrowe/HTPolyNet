@@ -1,6 +1,8 @@
 # HTPolyNet
 > High-Throughput Polymer Network Atomistic Simulations
 
+Modified version of HTPolyNet to avoid issues with newer GROMACS versions
+
 HTPolyNet is a Python utility for generating atomistic models of cross-linked polymer networks together with appropriate topology and parameter files required for molecular dynamics simulations using Gromacs.  It is intended as a fully automated system builder requiring as inputs only the molecular structures of any monomer species, a description of the polymerization chemistry, and a handful of options describing desired system size and composition.  HTPolyNet uses the Generalized Amber Force Field for atom-typing and parameter generation.
 
 ## Installation
